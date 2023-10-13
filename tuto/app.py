@@ -18,4 +18,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = (
 
 db = SQLAlchemy(app)
 
-
+app.config["SECRET_KEY"] = "4cf51be4-4cba-4c44-8fc8-1e34dd7bf0fd"
